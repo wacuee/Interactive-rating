@@ -1,0 +1,126 @@
+*,html
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Overpass", sans-serif;
+
+}
+body
+{
+    background-color: hsl(216, 12%, 8%);
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asd
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    height: 19em;
+    width: 23em;
+    padding: 2em;
+    border-radius: 1em;
+
+}
+.isi
+{
+    margin-top: 1em;
+    font-size: 1em;
+    opacity: .5;
+}
+#img
+{
+    height: 1em;
+    padding: .5em;
+    width: 1em;
+    background-color: rgb(49, 48, 38);
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+.rating
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.rate
+{
+    padding: 1em;
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+}
+.rate:hover
+{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: .2s;
+}
+#submit
+{
+    font-weight: 700;
+    letter-spacing: .2em;
+    color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 3em;
+    border-radius: 5em;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+}
+#submit:hover
+{
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: .5s;
+}
+#img-ty
+{
+    width: 15em;
+    width: 15em;
+}
+.asd-hidden
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    height: 19em;
+    width: 23em;
+    padding: 2em;
+    border-radius: 1em;
+
+}
+#container-hidden
+{
+    display: none;
+}
+.hasil
+{
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 1em;
+    padding: .3em;
+    width: 60%;
+    background-color: hsl(220, 4%, 15%);
+}
+.isi-hidden
+{
+    opacity: .5;
+    font-size: 1em;
+    text-align: center;
+    
+}
